@@ -1,4 +1,10 @@
 # GongFou
 
-![Gongzou Spectrogram][logo]
-[logo]: https://raw.githubusercontent.com/BFT-Security-Team/CTF-Writeups/master/BlazeCTF2018/GongZou.png "GongFou Spectrogram"
+We are given a .wav file that is a series of high pitched noises.  Opening the .wav in Sonic Visualiser and adding a spectrogram layer yields the following:
+
+![Gongzou Spectrogram](https://raw.githubusercontent.com/BFT-Security-Team/CTF-Writeups/master/BlazeCTF2018/GongZou.png)
+
+There are 8 rows of empty squares or filled in squares (0s and 1s).  These yield:
+111111110101010001001000001100110010000001000110010011000011010001000111001000000100100101010011001110100010000001100010011011000110000101111010011001010111101101001001010111110101101100110100010011100101111101001000001101000101101001011111010001100101010101001110010111110101011100110001010101000100100001011111010001100011000001010101010100100011000100110011010100100010000100111010001111100111110111111111
+
+Which translates to: `ÿTH3 FL4G IS: blaze{I_[4N_H4Z_FUN_W1TH_F0UR13R!:>}ÿ`
