@@ -17,6 +17,6 @@ If we take the number of characters in between the exclamation points and beginn
 9
 3
 
-These numbers correspond to letter of the alphabet and spell out the following flag:
+These numbers correspond to letters of the alphabet and spell out the following flag:
 
 dark logic
